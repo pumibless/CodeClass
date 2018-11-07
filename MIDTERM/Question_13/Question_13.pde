@@ -1,14 +1,10 @@
-String myStr = "I am a string!";
-String anotherStr = "I want to use the myFunc function to print this String!";
+String str = "I am a string!";
 
 void setup() {
-  myFunc(myStr);
+  String anotherStr = "I want to use the myFunc function to print this String!";
+  myFunc(anotherStr);
 }
 
 void myFunc(String myStr) {
   println(myStr);
-}
-
-void str2 (String anotherStr){
-  println(anotherStr);
 }
